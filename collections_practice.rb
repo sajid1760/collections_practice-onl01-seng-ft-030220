@@ -57,9 +57,12 @@ def sum_array(array)
 end
 
 def add_s(array)
-  collection = []
+  collection = [] 
+  piece = NIL
   a = 0 
   while a < array.size do
+    piece = 
+    
   
   
       
