@@ -38,7 +38,9 @@ def kesha_maker(array)
   collection = []
   chararray = []
   array.each do |element|
-    chararray = 
+    chararray = element.scan
+    chararray[3] = $
+    
     
     
       
