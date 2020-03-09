@@ -40,7 +40,14 @@ def kesha_maker(array)
   array.each do |element|
     chararray = element.scan
     chararray[3] = $
+    element = chararray.join
+    collection.push(element)
+  end
+  collection
+end
     
+def find_a(array)
+  array.select do |element|
     
-    
+  
       
