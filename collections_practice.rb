@@ -36,8 +36,9 @@ end
 def kesha_maker(array)
   a = 0 
   collection = []
+  chararray = []
   array.each do |element|
-    
+    chararray = 
     
     
       
