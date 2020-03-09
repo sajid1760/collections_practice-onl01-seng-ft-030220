@@ -59,6 +59,7 @@ end
 def add_s(array)
   collection = []
   a = 0 
+  while a < array.size do
   
   
       
