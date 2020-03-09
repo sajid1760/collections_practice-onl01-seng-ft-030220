@@ -4,7 +4,7 @@ end
 
 def sort_array_desc(intarray)
   intarray.sort do |a,b|
-    b <=
+    b <=> a 
   end
 end
   
@@ -39,7 +39,7 @@ def kesha_maker(array)
   chararray = []
   array.each do |element|
     chararray = element.scan
-    chararray[3] = $
+    chararray[3] = '$'
     element = chararray.join
     collection.push(element)
   end
