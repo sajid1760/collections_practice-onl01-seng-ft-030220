@@ -61,7 +61,15 @@ def add_s(array)
   piece = NIL
   a = 0 
   while a < array.size do
-    piece = 
+    if a == 2 then
+      piece = array[a]
+    else
+      piece = array[a] + "s"
+    end
+    collection.push(piece)
+  end
+  collection
+end
     
   
   
